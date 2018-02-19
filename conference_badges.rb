@@ -7,3 +7,7 @@ def batch_badge_creator(speakers)
   end
   badges
 end
+
+def badge_maker
+
+end
