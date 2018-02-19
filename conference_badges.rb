@@ -22,7 +22,7 @@ def assign_rooms(speakers)
   rooms
 end
 
-def printer(badges, rooms)
+def printer(speakers)
   puts badges
   puts rooms
 end
