@@ -23,8 +23,7 @@ def assign_rooms(speakers)
 end
 
 def printer(speakers)
-  batch_badge_creator(speakers)
-  badges.each do |badge_message|
+  batch_badge_creator(speakers).each do |badge_message|
     puts badge_message
   end
   assign_rooms(speakers).each do |room_message|
