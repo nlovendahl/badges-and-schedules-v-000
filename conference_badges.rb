@@ -27,4 +27,8 @@ def printer(speakers)
   badges.each do |badge_message|
     puts badge_message
   end
+  assign_rooms(speakers)
+  rooms.each do |badge_message|
+    puts badge_message
+  end
 end
